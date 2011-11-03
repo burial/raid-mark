@@ -1,0 +1,9 @@
+## Interface: 40200
+## Title: raid+mark
+## Notes: quickly mark and raidify your party
+## Author: burial
+## Version: 1
+## LoadManagers: AddonLoader
+## X-LoadOn-Slash: /mark
+
+main.lua
