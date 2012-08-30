@@ -1,8 +1,8 @@
-## Interface: 40200
+## Interface: 50001
 ## Title: raid+mark
 ## Notes: quickly mark and raidify your party
 ## Author: burial
-## Version: 1
+## Version: 2
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Slash: /mark
 
