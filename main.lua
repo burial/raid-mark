@@ -15,7 +15,7 @@ local unset = {}
 
 SLASH_MARK1 = "/mark"
 function SlashCmdList.MARK()
-  for i = 0, GetNumPartyMembers() do
+  for i = 0, GetNumSubgroupMembers() do
     local unit = i == 0 and "player" or "party" .. i
 
     do
@@ -44,7 +44,7 @@ function SlashCmdList.MARK()
     SetRaidTarget(unit, icon)
   end
 
-  if GetNumRaidMembers() == 0 then
+  if IsInRaid() == false then
     ConvertToRaid()
   end
 
